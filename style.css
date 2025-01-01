@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    top: 0px;
+    padding 10px 20px;
+}
+.left {
+    margin-left: 20px;
+    text-align: left;
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin: 20px
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgba(235, 233, 233, 0.457);
+    padding: 50px 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+.about-me {
+    width: 60%;    
+}
+
+#my-pix {
+    border-radius: 100%;
+    text-align: right;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: rgb(25, 24, 24);
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.my-works {
+    margin: 100px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+}
+
+.job-img {
+    border-radius: 10px;
+}
+
+.work {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+h4 {
+    margin: 30px 0px 10px;
+}
+
+.work p {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(235, 233, 233, 0.457);
+    text-align: center;
+    padding: 20px;
+}
+
